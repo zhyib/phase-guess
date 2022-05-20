@@ -15,7 +15,7 @@
         </span>
       </span>
     </div>
-    <el-button @click="check()">{{check}}</el-button>
+    <el-button @click="check()">check</el-button>
   </div>
 </template>
 
@@ -38,7 +38,9 @@
   justify-content: space-around;
 }
 
-@media screen {
-  
+@media screen and (max-width: 800px){
+  html {
+    font-size: 5px;
+  }
 }
 </style>

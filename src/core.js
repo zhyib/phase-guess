@@ -140,7 +140,7 @@ export default {
       }
       if (correct) {
         this.$message({
-          message: "答案正确！",
+          message: this.word,
           type: "success",
           duration: 5000,
         });

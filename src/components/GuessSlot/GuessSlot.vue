@@ -27,11 +27,11 @@ export default {
 
 <style>
 .block {
-  height: 80px;
-  width: 60px;
-  margin: 0 1px;
+  height: 5rem;
+  width: 4rem;
+  margin: 0 0.1rem;
   color: white;
-  font-size: 70px;
+  font-size: 4.6rem;
 }
 
 .guess-normal {
